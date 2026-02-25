@@ -96,7 +96,7 @@ modi/
 - Better UI design
 - Model accuracy improvements
 
-  ## License
+ ## License
 This project is for educational and internship demonstration purposes.
 
 
