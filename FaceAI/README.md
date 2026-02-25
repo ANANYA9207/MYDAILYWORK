@@ -11,7 +11,7 @@ The system allows users to:
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 - Python  
 - OpenCV  
 - NumPy  
@@ -34,7 +34,7 @@ modi/
 1.jpg
 2.jpg
 
-## 🚀 How to Run the Project
+## How to Run the Project?
 
 1. Open Terminal or Anaconda Prompt and go to the project folder:
 
@@ -68,15 +68,13 @@ modi/
    Open the browser link shown (usually http://localhost:8501)  
    Upload an image to see the prediction.
 
----
-
 **Notes**
 - Keep all training images inside the `dataset/` folder.
 - Each person must have a separate subfolder.
 - Use JPG or PNG images only.
 - Run `train.py` again if new images are added.
 
-## 🧠 How It Works
+## How It Works?
 1. Images from the dataset are loaded and converted to grayscale.
 2. Haar Cascade detects faces in each image.
 3. Faces are resized and used to train the LBPH recognizer.
@@ -102,7 +100,7 @@ modi/
 - Better UI design
 - Model accuracy improvements
 
-  ## 📜 License
+  ## License
 This project is for educational and internship demonstration purposes.
 
 
