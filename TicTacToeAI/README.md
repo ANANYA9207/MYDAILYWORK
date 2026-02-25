@@ -20,11 +20,9 @@ Reset button to start a new game
 
 ---
 
-## AI Algorithm Used — Minimax
+## Algorithm and Technologies Used
 
 Minimax algorithm evaluates all possible future moves and selects the optimal one. This makes the AI player unbeatable.
-
-## Technologies Used
 
 Python
 
