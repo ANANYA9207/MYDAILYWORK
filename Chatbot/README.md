@@ -17,6 +17,8 @@ It demonstrates how basic Natural Language Processing (NLP) concepts and convers
 - Instant response using Flask routes (JSON)
 
 - Easy to extend with new rules
+  
+  ---
 
 *Technologies Used*
 
@@ -28,10 +30,14 @@ It demonstrates how basic Natural Language Processing (NLP) concepts and convers
 
 - String processing and pattern matching
 
+  ---
+
 *How to Run*
 1) Install - py -m pip install flask
 2) Run -  py app.py
 3) Open in browser - http://127.0.0.1:5000
+
+---
 
 *Concepts Learned*
 
