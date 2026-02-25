@@ -1,6 +1,6 @@
 # Face Recognition Application using OpenCV
 
-## 📌 Project Overview
+## Project Overview
 This project is an AI-based Face Recognition system that detects and recognizes human faces from images.  
 It uses OpenCV’s Haar Cascade classifier for face detection and the LBPH (Local Binary Pattern Histogram) algorithm for face recognition.
 
@@ -18,7 +18,7 @@ The system allows users to:
 - Streamlit (for frontend UI)
 
 ---
-## 📊 Dataset
+## Dataset
 The dataset contains folders for each person.  
 Each folder includes multiple images of that person.
 
@@ -81,7 +81,7 @@ modi/
 
 ---
 
-## ✅ Features
+## Features
 - Face detection using Haar Cascade
 - Face recognition using LBPH algorithm
 - Works on uploaded images
@@ -90,7 +90,7 @@ modi/
 
 ---
 
-## 📌 Future Improvements
+## Future Improvements
 - Real-time webcam recognition
 - Deep learning-based face detection
 - Better UI design
