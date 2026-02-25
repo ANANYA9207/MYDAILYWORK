@@ -4,6 +4,8 @@ An interactive Tic Tac Toe web application where a human plays against an unbeat
 
 This project demonstrates how Artificial Intelligence, search algorithms, and Flask web development can be combined to build an intelligent browser game. Features
 
+---
+
 ## Human vs AI gameplay
 
 AI never loses (Minimax algorithm)
