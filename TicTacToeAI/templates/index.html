@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tic Tac Toe AI</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Tic Tac Toe – You (O) vs AI (X)</h1>
+    <div id="board">
+        {% for i in range(9) %}
+        <div class="cell" onclick="makeMove({{i}})" id="cell{{i}}">
+            {{ board[i] }}
+        </div>
+        {% endfor %}
+    </div>
+
+    <h2 id="status"></h2>
+    <button onclick="resetGame()">Reset</button>
+
+<script>
+let gameOver = false;
+
+function makeMove(pos){
+    if(gameOver) return;
+
+    fetch('/move', {
+        method: 'POST',
+        headers: {'Content-Type':'application/json'},
+        body: JSON.stringify({pos: pos})
+    })
+    .then(res => res.json())
+    .then(data => {
+        data.board.forEach((val, i)=>{
+            document.getElementById('cell'+i).innerText = val;
+        });
+        document.getElementById('status').innerText = data.status;
+
+        if(data.status !== "playing"){
+            gameOver = true;
+        }
+    });
+}
+
+function resetGame(){
+    fetch('/reset')
+    .then(res => res.json())
+    .then(data => {
+        data.board.forEach((val, i)=>{
+            document.getElementById('cell'+i).innerText = val;
+        });
+        document.getElementById('status').innerText = "";
+        gameOver = false;
+    });
+}
+</script>
+
+</body>
+</html>

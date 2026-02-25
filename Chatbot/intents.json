@@ -1,0 +1,128 @@
+{
+  "greeting": {
+    "patterns": ["hi", "hello", "hey", "good morning", "good evening", "hiya", "hello there", "hey bot", "good day"
+],
+    "responses": ["Hello! How can I help you today?", "Hi there!", "Hey!"]
+  },
+
+  "how_are_you": {
+    "patterns": ["how are you", "how r u", "are you fine"],
+    "responses": ["I am fine! How about you?", "Doing great!"]
+  },
+
+  "name": {
+    "patterns": ["what is your name", "who are you"],
+    "responses": ["I am a rule-based chatbot.", "You can call me ChatBot."]
+  },
+
+  "thanks": {
+    "patterns": ["thanks", "thank you", "thx", "thanks a lot", "many thanks"
+],
+    "responses": ["You're welcome!", "Happy to help!"]
+  },
+
+  "bye": {
+    "patterns": ["bye", "goodbye", "see you", "see ya", "bye bye", "catch you later"],
+    "responses": ["Goodbye!", "See you soon!"]
+  },
+
+  "time": {
+    "patterns": ["what is time", "current time", "tell me time"],
+    "responses": ["time"]
+  },
+
+  "date": {
+    "patterns": ["what is date", "today date", "tell me date"],
+    "responses": ["date"]
+  },
+
+  "college": {
+    "patterns": ["which college", "where do you study", "college name"],
+    "responses": ["I am created for a college project chatbot."]
+  },
+
+  "help": {
+    "patterns": ["help", "what can you do", "features"],
+    "responses": ["I can reply to greetings, time, date, and simple questions."]
+  },
+
+  "jokes": {
+    "patterns": ["tell joke", "joke", "make me laugh"],
+    "responses": ["Why did the computer go to the doctor? Because it caught a virus!"]
+  },
+  "weather": {
+  "patterns": ["how is weather", "weather today", "is it hot", "is it raining"],
+  "responses": ["I can't check live weather, but I hope it's pleasant there!"]
+},
+
+"age": {
+  "patterns": ["how old are you", "your age", "when were you created"],
+  "responses": ["I was created recently as a rule-based chatbot project!"]
+},
+
+"creator": {
+  "patterns": ["who created you", "your developer", "who made you"],
+  "responses": ["I was created by a student as a project using Python and Flask."]
+},
+
+"study": {
+  "patterns": ["what are you studying", "your course", "what do you learn"],
+  "responses": ["I am built for learning AI, NLP, and Web development concepts."]
+},
+
+"hobby": {
+  "patterns": ["your hobby", "what do you like", "what do you do for fun"],
+  "responses": ["I like chatting with users and answering questions!"]
+},
+
+"food": {
+  "patterns": ["what is your favorite food", "do you eat", "food you like"],
+  "responses": ["I don't eat, but I hear pizza is popular!"]
+},
+
+"location": {
+  "patterns": ["where are you", "your location", "where do you live"],
+  "responses": ["I live inside this computer as a chatbot program!"]
+},
+
+"motivation": {
+  "patterns": ["motivate me", "i am sad", "feeling low", "need motivation"],
+  "responses": ["Don't give up! Every expert was once a beginner."]
+},
+
+"compliment": {
+  "patterns": ["you are smart", "good bot", "nice chatbot"],
+  "responses": ["Thank you! That means a lot."]
+},
+
+"math": {
+  "patterns": ["2+2", "5*3", "10/2"],
+  "responses": ["I am not good at math yet, but I'm learning!"]
+},
+
+"programming": {
+  "patterns": ["what is python", "what is flask", "what is nlp"],
+  "responses": ["These are technologies used to build me!"]
+},
+
+"exam": {
+  "patterns": ["exam tips", "how to study", "study tips"],
+  "responses": ["Revise daily, practice questions, and take short breaks."]
+},
+
+"sleep": {
+  "patterns": ["i am sleepy", "can't sleep", "sleep tips"],
+  "responses": ["Avoid screens, relax your mind, and try deep breathing."]
+},
+
+"friend": {
+  "patterns": ["be my friend", "are you my friend"],
+  "responses": ["Of course! I am always here to chat with you."]
+},
+
+"love": {
+  "patterns": ["do you love me", "i love you"],
+  "responses": ["I appreciate you! I'm here to support you."]
+}
+
+}

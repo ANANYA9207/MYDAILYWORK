@@ -1,0 +1,12 @@
+You: hi
+Bot: Hi there! What can I do for you?
+You: i am feeking bore
+Bot: Sorry, I didn't understand.
+You: i am feeling bore
+Bot: Stay positive. Every small step you take leads to success.
+You: what i can do 
+Bot: Sorry, I didn't understand.
+You: what activity i can do
+Bot: Sorry, I didn't understand.
+You: exit
+Bot: Goodbye! Have a great day!
