@@ -18,10 +18,6 @@ The system allows users to:
 - Streamlit (for frontend UI)
 
 ---
-
-
----
-
 ## 📊 Dataset
 The dataset contains folders for each person.  
 Each folder includes multiple images of that person.
