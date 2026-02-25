@@ -18,7 +18,7 @@ It demonstrates how basic Natural Language Processing (NLP) concepts and convers
 
 - Easy to extend with new rules
   
-  ---
+---
 
 ## Technologies Used
 
@@ -30,7 +30,7 @@ It demonstrates how basic Natural Language Processing (NLP) concepts and convers
 
 - String processing and pattern matching
 
-  ---
+---
 
 ## How to Run
 1) Install - py -m pip install flask
