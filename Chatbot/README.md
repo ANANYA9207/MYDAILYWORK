@@ -20,7 +20,7 @@ It demonstrates how basic Natural Language Processing (NLP) concepts and convers
   
   ---
 
-# Technologies Used*
+## Technologies Used
 
 - Python
 
@@ -32,14 +32,14 @@ It demonstrates how basic Natural Language Processing (NLP) concepts and convers
 
   ---
 
-# How to Run
+## How to Run
 1) Install - py -m pip install flask
 2) Run -  py app.py
 3) Open in browser - http://127.0.0.1:5000
 
 ---
 
-# Concepts Learned
+## Concepts Learned
 
 - Rule-based NLP
 
