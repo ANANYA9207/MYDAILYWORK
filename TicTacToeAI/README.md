@@ -18,7 +18,7 @@ Game stops after win/draw
 
 Reset button to start a new game
 
---
+---
 
 ## AI Algorithm Used — Minimax
 
@@ -32,7 +32,7 @@ Flask
 
 HTML, CSS, JavaScript
 
---
+---
 
 ## How to Run the Project?
 
@@ -48,7 +48,7 @@ py app.py
 
 http://127.0.0.1:5000
 
---
+---
 
 ## How to Play?
 
@@ -62,7 +62,7 @@ After win/draw, the board freezes
 
 Press Reset to start a new game
 
---
+---
 
 ## Concepts Learned
 
@@ -76,7 +76,7 @@ Flask routing and templates
 
 Frontend–backend interaction using JSON
 
---
+---
 ## Outcome
 
 This project proves how basic AI search techniques can be used to create intelligent and interactive web applications.
